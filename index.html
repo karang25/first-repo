@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="box">
+      <h1>The Number Guessing Game</h1>
+
+      <label for="mini"><b>Set Minimum Limit</b></label>
+      <input type="number" id="mini" class="limit" min="0" /><br /><br />
+
+      <label for="max"><b>Set Minimum Limit</b></label>
+      <input type="number" id="max" class="limit" min="1" /><br /><br />
+
+      <button type="submit" id="submtbtn">Set Limits</button><br /><br />
+      <p id="limitpara"></p>
+
+      <label for="randm"
+        ><b>Click The Button To Generate Random Number</b></label
+      ><br /><br />
+      <button id="randm">Generate Random Number</button><br /><br />
+      <p id="randompara"></p>
+
+      <label for="guessing"><b>Enter The Number You Guessed</b></label>
+      <input type="number" id="guessing" /><br /><br />
+      <button id="submtgus">Guess</button><br /><br />
+
+      <p id="para"></p>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

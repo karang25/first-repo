@@ -1,0 +1,52 @@
+#box{
+    width: 70vw;
+    height: 95vh;
+    margin: auto;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+    padding-bottom: 1%;
+
+}
+h1{
+    text-shadow: 3px 3px 5px tomato,-3px -3px 5px skyblue;
+}
+.limit{
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid violet;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(255, 0, 255) ;
+    padding: 1%;
+}
+#submtbtn{
+    font-size: 1.1em;
+    border: 1px solid yellowgreen;
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 0px 0px 10px greenyellow;
+}
+#randm{
+    font-size: 1.1em;
+    border: 1px solid rgb(76, 90, 245);
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 0px 0px 10px rgb(8, 193, 255);
+}
+
+#guessing{
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid rgb(255, 4, 4);
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgb(255, 111, 0) ;
+    padding: 1%;
+}
+#submtgus{
+    font-size: 1.1em;
+    border: 1px solid rgb(2, 157, 113);
+    border-radius: 20px;
+    padding: 1%;
+    box-shadow: 0px 0px 10px rgb(1, 255, 170);
+}
